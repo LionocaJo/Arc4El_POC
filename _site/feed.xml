@@ -1,79 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-11T11:44:10+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Arc4U in Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/08/05/LoggingArc4U.html" rel="alternate" type="text/html" title="Arc4U in Jekyll!" /><published>2023-08-05T11:04:48+02:00</published><updated>2023-08-05T11:04:48+02:00</updated><id>http://localhost:4000/jekyll/update/2023/08/05/LoggingArc4U</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/08/05/LoggingArc4U.html"><![CDATA[<h1 id="what-can-you-do-with-arc4u">What can you do with Arc4u?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-08-11T14:22:28+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tutorial Proof</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Arc4U in Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/08/05/LoggingArc4U.html" rel="alternate" type="text/html" title="Arc4U in Jekyll!" /><published>2023-08-05T11:04:48+02:00</published><updated>2023-08-05T11:04:48+02:00</updated><id>http://localhost:4000/jekyll/update/2023/08/05/LoggingArc4U</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/08/05/LoggingArc4U.html">&lt;h1 id=&quot;what-can-you-do-with-arc4u&quot;&gt;What can you do with Arc4u?&lt;/h1&gt;
 
-<h2 id="elia-architectural-framework">Elia Architectural Framework</h2>
+&lt;h2 id=&quot;elia-architectural-framework&quot;&gt;Elia Architectural Framework&lt;/h2&gt;
 
-<p>Arc4u is a framework providing support for many common tasks and problems that need to be solved in Elia applications written <a href="http://in.NET">in.NET</a> (Core).</p>
+&lt;p&gt;Arc4u is a framework providing support for many common tasks and problems that need to be solved in Elia applications written &lt;a href=&quot;http://in.NET&quot;&gt;in.NET&lt;/a&gt; (Core).&lt;/p&gt;
 
-<p>The specific areas of the support that is provided are:</p>
+&lt;p&gt;The specific areas of the support that is provided are:&lt;/p&gt;
 
-<ul>
-  <li>Logging / Diagnostics</li>
-  <li>Dependency Injection</li>
-  <li>Serialization</li>
-  <li>Caching</li>
-  <li>OData support</li>
-  <li>Authentication</li>
-  <li>gRPC</li>
-  <li>Data Layer helpers</li>
-  <li>Entity Framework Core helpers</li>
-  <li>Unclassified</li>
-</ul>
+&lt;ul&gt;
+  &lt;li&gt;Logging / Diagnostics&lt;/li&gt;
+  &lt;li&gt;Dependency Injection&lt;/li&gt;
+  &lt;li&gt;Serialization&lt;/li&gt;
+  &lt;li&gt;Caching&lt;/li&gt;
+  &lt;li&gt;OData support&lt;/li&gt;
+  &lt;li&gt;Authentication&lt;/li&gt;
+  &lt;li&gt;gRPC&lt;/li&gt;
+  &lt;li&gt;Data Layer helpers&lt;/li&gt;
+  &lt;li&gt;Entity Framework Core helpers&lt;/li&gt;
+  &lt;li&gt;Unclassified&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>In addition, Arc4u provides helpers, abstractions, extensions and utilities for specific .NET products and technologies used in Elia projects:</p>
+&lt;p&gt;In addition, Arc4u provides helpers, abstractions, extensions and utilities for specific .NET products and technologies used in Elia projects:&lt;/p&gt;
 
-<ul>
-  <li><a href="https://prismlibrary.com/">Prism</a></li>
-  <li><a href="https://www.mongodb.com/">MongoDB</a></li>
-  <li><a href="https://particular.net/nservicebus">NServiceBus</a></li>
-  <li><a href="https://kubemq.io/">KubeMQ</a></li>
-</ul>
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://prismlibrary.com/&quot;&gt;Prism&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://particular.net/nservicebus&quot;&gt;NServiceBus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kubemq.io/&quot;&gt;KubeMQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="logging--diagnostics">Logging / Diagnostics</h2>
+&lt;h2 id=&quot;logging--diagnostics&quot;&gt;Logging / Diagnostics&lt;/h2&gt;
 
-<h3 id="logging-category-support">Logging category support</h3>
+&lt;h3 id=&quot;logging-category-support&quot;&gt;Logging category support&lt;/h3&gt;
 
-<p>Although .NET Core already provides logging, Arc4u provides methods specifying different common logging categories in Elia applications:</p>
+&lt;p&gt;Although .NET Core already provides logging, Arc4u provides methods specifying different common logging categories in Elia applications:&lt;/p&gt;
 
-<ul>
-  <li>Technical: logging concerning technical (IT) stuff</li>
-  <li>Business: logging that concerns business rules</li>
-  <li>Monitoring: logging concerning performance monitoring like CPU and memory</li>
-</ul>
+&lt;ul&gt;
+  &lt;li&gt;Technical: logging concerning technical (IT) stuff&lt;/li&gt;
+  &lt;li&gt;Business: logging that concerns business rules&lt;/li&gt;
+  &lt;li&gt;Monitoring: logging concerning performance monitoring like CPU and memory&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>They correspond to what is defined in <a href="https://github.com/GFlisch/Arc4u/blob/master/src/Arc4u.Standard.Diagnostics/MessageCategory.cs">Arc4u/MessageCategory.cs at master · GFlisch/Arc4u (github.com)</a> . The categories are used in reporting and other scenarios where it is necessary to reduce “unwanted noise” in what is being logged.</p>
+&lt;p&gt;They correspond to what is defined in &lt;a href=&quot;https://github.com/GFlisch/Arc4u/blob/master/src/Arc4u.Standard.Diagnostics/MessageCategory.cs&quot;&gt;Arc4u/MessageCategory.cs at master · GFlisch/Arc4u (github.com)&lt;/a&gt; . The categories are used in reporting and other scenarios where it is necessary to reduce “unwanted noise” in what is being logged.&lt;/p&gt;
 
-<p>These categories are built on the standard .NET Core ILogger and are supported in a fluent way. See <a href="https://github.com/GFlisch/Arc4u/blob/master/src/Arc4u.Standard.Diagnostics/Fluent/ILoggerExtension.cs">Arc4u/ILoggerExtension.cs at master · GFlisch/Arc4u (github.com)</a>. This allows us to write:</p>
+&lt;p&gt;These categories are built on the standard .NET Core ILogger and are supported in a fluent way. See &lt;a href=&quot;https://github.com/GFlisch/Arc4u/blob/master/src/Arc4u.Standard.Diagnostics/Fluent/ILoggerExtension.cs&quot;&gt;Arc4u/ILoggerExtension.cs at master · GFlisch/Arc4u (github.com)&lt;/a&gt;. This allows us to write:&lt;/p&gt;
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>logger.Technical().Information(&lt;span class="hljs-string"&gt;"Start the Api process."&lt;/span&gt;).Log();
-logger.Business().Warning(&lt;span class="hljs-string"&gt;"User Not Found"&lt;/span&gt;).Log();
-</code></pre></div></div>
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;logger.Technical().Information(&amp;lt;span class=&quot;hljs-string&quot;&amp;gt;&quot;Start the Api process.&quot;&amp;lt;/span&amp;gt;).Log();
+logger.Business().Warning(&amp;lt;span class=&quot;hljs-string&quot;&amp;gt;&quot;User Not Found&quot;&amp;lt;/span&amp;gt;).Log();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<p>… resulting in cleaner code.</p>
+&lt;p&gt;… resulting in cleaner code.&lt;/p&gt;
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install --production
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install --production
 NODE_ENV=production node app
-</code></pre></div></div>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="paris">Paris</h3>
+&lt;h3 id=&quot;paris&quot;&gt;Paris&lt;/h3&gt;
 
-<p>Paris is the capital of France.</p>
+&lt;p&gt;Paris is the capital of France.&lt;/p&gt;
 
-<h3 id="tokyo">Tokyo</h3>
+&lt;h3 id=&quot;tokyo&quot;&gt;Tokyo&lt;/h3&gt;
 
-<p>Tokyo is the capital of Japan.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[What can you do with Arc4u? Elia Architectural Framework Arc4u is a framework providing support for many common tasks and problems that need to be solved in Elia applications written in.NET (Core). The specific areas of the support that is provided are: Logging / Diagnostics Dependency Injection Serialization Caching OData support Authentication gRPC Data Layer helpers Entity Framework Core helpers Unclassified In addition, Arc4u provides helpers, abstractions, extensions and utilities for specific .NET products and technologies used in Elia projects: Prism MongoDB NServiceBus KubeMQ Logging / Diagnostics Logging category support Although .NET Core already provides logging, Arc4u provides methods specifying different common logging categories in Elia applications: Technical: logging concerning technical (IT) stuff Business: logging that concerns business rules Monitoring: logging concerning performance monitoring like CPU and memory They correspond to what is defined in Arc4u/MessageCategory.cs at master · GFlisch/Arc4u (github.com) . The categories are used in reporting and other scenarios where it is necessary to reduce “unwanted noise” in what is being logged. These categories are built on the standard .NET Core ILogger and are supported in a fluent way. See Arc4u/ILoggerExtension.cs at master · GFlisch/Arc4u (github.com). This allows us to write: logger.Technical().Information(&lt;span class="hljs-string"&gt;"Start the Api process."&lt;/span&gt;).Log(); logger.Business().Warning(&lt;span class="hljs-string"&gt;"User Not Found"&lt;/span&gt;).Log(); … resulting in cleaner code. npm install --production NODE_ENV=production node app Paris Paris is the capital of France. Tokyo Tokyo is the capital of Japan.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/08/04/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-08-04T11:04:48+02:00</published><updated>2023-08-04T11:04:48+02:00</updated><id>http://localhost:4000/jekyll/update/2023/08/04/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/08/04/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+&lt;p&gt;Tokyo is the capital of Japan.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">What can you do with Arc4u? Elia Architectural Framework Arc4u is a framework providing support for many common tasks and problems that need to be solved in Elia applications written in.NET (Core). The specific areas of the support that is provided are: Logging / Diagnostics Dependency Injection Serialization Caching OData support Authentication gRPC Data Layer helpers Entity Framework Core helpers Unclassified In addition, Arc4u provides helpers, abstractions, extensions and utilities for specific .NET products and technologies used in Elia projects: Prism MongoDB NServiceBus KubeMQ Logging / Diagnostics Logging category support Although .NET Core already provides logging, Arc4u provides methods specifying different common logging categories in Elia applications: Technical: logging concerning technical (IT) stuff Business: logging that concerns business rules Monitoring: logging concerning performance monitoring like CPU and memory They correspond to what is defined in Arc4u/MessageCategory.cs at master · GFlisch/Arc4u (github.com) . The categories are used in reporting and other scenarios where it is necessary to reduce “unwanted noise” in what is being logged. These categories are built on the standard .NET Core ILogger and are supported in a fluent way. See Arc4u/ILoggerExtension.cs at master · GFlisch/Arc4u (github.com). This allows us to write: logger.Technical().Information(&amp;lt;span class=&quot;hljs-string&quot;&amp;gt;&quot;Start the Api process.&quot;&amp;lt;/span&amp;gt;).Log(); logger.Business().Warning(&amp;lt;span class=&quot;hljs-string&quot;&amp;gt;&quot;User Not Found&quot;&amp;lt;/span&amp;gt;).Log(); … resulting in cleaner code. npm install --production NODE_ENV=production node app Paris Paris is the capital of France. Tokyo Tokyo is the capital of Japan.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/08/04/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-08-04T11:04:48+02:00</published><updated>2023-08-04T11:04:48+02:00</updated><id>http://localhost:4000/jekyll/update/2023/08/04/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/08/04/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
